@@ -1,0 +1,32 @@
+.prodCont {
+  border: 2px solid black; /* Width and color of the border */
+  height: 400px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.prodImageCont {
+  height: 180px;
+}
+
+.prodName {
+  border: 2px solid black; /* Width and color of the border */
+}
+.prodPrice {
+  border: 2px solid black; /* Width and color of the border */
+}
+
+.prodQuantity {
+  border: 2px solid black; /* Width and color of the border */
+}
+
+.prodImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product-spacer {
+  flex: 1;
+}
